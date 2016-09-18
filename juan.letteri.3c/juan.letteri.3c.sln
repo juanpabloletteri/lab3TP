@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aplicacion.01", "aplicacion
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "WindowsFormsApplication1\ComboBox.csproj", "{A9F7B062-1491-44B5-A755-B9F4C355D645}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aplicacion.02", "aplicacion.02\aplicacion.02.csproj", "{9DA577A8-21B5-42B7-9590-0D1970E3C3EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A9F7B062-1491-44B5-A755-B9F4C355D645}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9F7B062-1491-44B5-A755-B9F4C355D645}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9F7B062-1491-44B5-A755-B9F4C355D645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA577A8-21B5-42B7-9590-0D1970E3C3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA577A8-21B5-42B7-9590-0D1970E3C3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA577A8-21B5-42B7-9590-0D1970E3C3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA577A8-21B5-42B7-9590-0D1970E3C3EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
