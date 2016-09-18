@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "WindowsFormsApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aplicacion.02", "aplicacion.02\aplicacion.02.csproj", "{9DA577A8-21B5-42B7-9590-0D1970E3C3EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aplicacion.03", "aplicacion.03\aplicacion.03.csproj", "{83010AA0-18EA-40B8-B14D-4E11A1D5D42B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9DA577A8-21B5-42B7-9590-0D1970E3C3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DA577A8-21B5-42B7-9590-0D1970E3C3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DA577A8-21B5-42B7-9590-0D1970E3C3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83010AA0-18EA-40B8-B14D-4E11A1D5D42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83010AA0-18EA-40B8-B14D-4E11A1D5D42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83010AA0-18EA-40B8-B14D-4E11A1D5D42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83010AA0-18EA-40B8-B14D-4E11A1D5D42B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

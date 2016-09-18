@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtMonto = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtDescuento = new System.Windows.Forms.TextBox();
             this.txtPagar = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.txtDescuento = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtMonto = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnCalcular = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
@@ -56,42 +57,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Información";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(24, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(156, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Ingrese el monto a cobrar:";
-            // 
-            // txtMonto
-            // 
-            this.txtMonto.Location = new System.Drawing.Point(186, 37);
-            this.txtMonto.Name = "txtMonto";
-            this.txtMonto.Size = new System.Drawing.Size(90, 20);
-            this.txtMonto.TabIndex = 0;
-            this.txtMonto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMonto_KeyPress);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(129, 93);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Descuento recibido:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // txtDescuento
-            // 
-            this.txtDescuento.Enabled = false;
-            this.txtDescuento.Location = new System.Drawing.Point(237, 90);
-            this.txtDescuento.Name = "txtDescuento";
-            this.txtDescuento.Size = new System.Drawing.Size(90, 20);
-            this.txtDescuento.TabIndex = 3;
-            // 
             // txtPagar
             // 
             this.txtPagar.Enabled = false;
@@ -109,6 +74,42 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Total a pagar:";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtDescuento
+            // 
+            this.txtDescuento.Enabled = false;
+            this.txtDescuento.Location = new System.Drawing.Point(237, 90);
+            this.txtDescuento.Name = "txtDescuento";
+            this.txtDescuento.Size = new System.Drawing.Size(90, 20);
+            this.txtDescuento.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(129, 93);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(102, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Descuento recibido:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // txtMonto
+            // 
+            this.txtMonto.Location = new System.Drawing.Point(186, 37);
+            this.txtMonto.Name = "txtMonto";
+            this.txtMonto.Size = new System.Drawing.Size(90, 20);
+            this.txtMonto.TabIndex = 0;
+            this.txtMonto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMonto_KeyPress);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(24, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(156, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Ingrese el monto a cobrar:";
             // 
             // btnCalcular
             // 
@@ -149,6 +150,7 @@
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Descuento";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
