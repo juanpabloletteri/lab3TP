@@ -79,23 +79,19 @@ namespace aplicacion._04
                 lista.Add(item);
             }
 
-            if (rbtAscendente.Checked==true)
+            if (rbtAscendente.Checked)//==true)
             {
                 lista.Sort(OrdenarAscendente);
-                lstNumeros.Items.Clear();
-                foreach (int item in lista)
-                {
-                    lstNumeros.Items.Add(item);
-                }
             }
             else
             {
                 lista.Sort(OrdenarDescendente);
-                lstNumeros.Items.Clear();
-                foreach (int item in lista)
-                {
-                    lstNumeros.Items.Add(item);
-                }
+            }
+
+            lstNumeros.Items.Clear();
+            foreach (int item in lista)
+            {
+                lstNumeros.Items.Add(item);
             }
         }
 
