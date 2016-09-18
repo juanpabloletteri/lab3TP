@@ -31,6 +31,15 @@ namespace aplicacion._03
             string ordenado = new string(arraychar);
             return ordenado;
         }
+        
+        private void btnOperar_Click(object sender, EventArgs e)
+        {
+            string cadena = txtCadena.Text;
+            txtInvertida.Text = Invertir(cadena);
+
+            cadena = txtCadena.Text;
+            txtAlfabetico.Text = OrdenarAlfabeticamente(cadena);
+        }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("Seguro desea salir?","Saliendo...",MessageBoxButtons.OKCancel,MessageBoxIcon.Question)==DialogResult.Cancel)
@@ -59,14 +68,5 @@ namespace aplicacion._03
             }
         }
 
-        private void btnOperar_Click(object sender, EventArgs e)
-        {
-            string cadena = txtCadena.Text;
-            txtInvertida.Text = Invertir(cadena);
-
-            cadena = txtCadena.Text;
-            txtAlfabetico.Text = OrdenarAlfabeticamente(cadena);
-
-        }
     }
 }
