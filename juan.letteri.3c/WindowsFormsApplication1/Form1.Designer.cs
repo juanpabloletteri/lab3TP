@@ -80,17 +80,21 @@
             // 
             // cmb
             // 
+            this.cmb.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.cmb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmb.FormattingEnabled = true;
             this.cmb.Items.AddRange(new object[] {
-            "hola",
-            "chau",
-            "tal vez",
             "amarillo",
             "azul",
+            "chau",
+            "cian",
+            "hola",
+            "tal vez",
             "violeta"});
             this.cmb.Location = new System.Drawing.Point(45, 102);
             this.cmb.Name = "cmb";
             this.cmb.Size = new System.Drawing.Size(121, 21);
+            this.cmb.Sorted = true;
             this.cmb.TabIndex = 4;
             this.cmb.SelectedIndexChanged += new System.EventHandler(this.cmb_SelectedIndexChanged);
             // 
